@@ -27,4 +27,4 @@ pip install -r requirements.txt
 
 
 then run respective file
-
+Example: python ./americasbiz.py
