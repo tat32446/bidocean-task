@@ -1,5 +1,12 @@
 
 
+CSS and XPath checker
+https://chrome.google.com/webstore/detail/css-and-xpath-checker/aoinfihhckpkkcpholfhmkeplbhddipe
+
+Relative XPath Helper
+https://chrome.google.com/webstore/detail/relative-xpath-helper/eanaofphbanknlngejejepmfomkjaiic
+
+
 Clone the repo
 
 Https
@@ -28,3 +35,5 @@ pip install -r requirements.txt
 
 then run respective file
 Example: python ./americasbiz.py
+
+
