@@ -18,4 +18,5 @@ timeout = 30
 element = driver.find_element(By.XPATH,'//INPUT[@class="gLFyf gsfi"]')
 element.send_keys('testing sendkeys function')
 element.send_keys(Keys.RETURN)
-element.close()
+
+driver.close()
