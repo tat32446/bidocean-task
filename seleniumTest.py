@@ -8,8 +8,9 @@ from selenium.common.exceptions import NoSuchElementException
 import pandas as pd
 
 Data=[]
-
-driver = webdriver.Chrome(executable_path='chromedriver')
+chromeOptions = webdriver.ChromeOptions()
+chromeOptions.add_argument("--start-maximized")
+driver = webdriver.Chrome(chrome_options=chromeOptions,executable_path='chromedriver')
 driver.get('https://www.lazada.sg/#')
 timeout = 30
 try:
