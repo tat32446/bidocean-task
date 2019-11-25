@@ -10,6 +10,7 @@ import pandas as pd
 Data=[]
 chromeOptions = webdriver.ChromeOptions()
 chromeOptions.add_argument("--start-maximized")
+chromeOptions.add_argument("--headless")
 driver = webdriver.Chrome(chrome_options=chromeOptions,executable_path='chromedriver')
 driver.get('https://www.lazada.sg/#')
 timeout = 30
