@@ -60,6 +60,6 @@ for container in product_containers:
     Dict={ }
     Dict={'product_title': product_titles, 'pack_size': pack_sizes,'product_price': product_prices, 'rating_count': rating_counts}
     Data.append(Dict)
-driver.close()    
+driver.close()   
 df_product = pd.DataFrame(Data)
 df_product.to_csv('product_info.csv')

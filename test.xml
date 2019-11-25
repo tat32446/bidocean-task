@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ns0:New_GetList_Operation_0Response xmlns:ns0="urn:ERI:AvaamoChatHours" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000001</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>24x7</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>Yes</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Available</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:01</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>1 2 3 4 5 6 7</ns0:Day>
+                <ns0:Schedule_Type>24X7</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>0</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>March 28, 2019 4:47:35 PM CET</ns0:Current_Server_TS>
+                <ns0:End_Day>7</ns0:End_Day>
+                <ns0:Start_Day>1</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000107</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GNEA-Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>03:00:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 06:30am to 02:30pm IST, Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 2:25:23 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GNEA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000108</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GNEA-WeekEnd</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>11:59:00</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 06:30am to 02:30pm IST, Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 1:45:47 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GNEA</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000109</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GNAM-Not available</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>Yes</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>02:00:00</ns0:Start_Time>
+                <ns0:End_Time>17:00:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MANA 05:30pm to 05:30am (IST) Monday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>December 4, 2018 1:02:28 PM CET</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GNAM</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000110</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GNAM-WeekEnd</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>02:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MANA 05:30pm to 05:30am (IST) Monday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 2:34:43 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GNAM</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000111</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSSA-Unavailable Weekday</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>08:00:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 7:57:58 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GSSA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000112</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMEA-Weekdays Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>12:00:00</ns0:Start_Time>
+                <ns0:End_Time>20:00:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>April 2, 2019 1:26:38 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GMEA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000113</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMEA</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>7</ns0:Day>
+                <ns0:Schedule_Type>Saturday</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>7</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 1:37:03 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>7</ns0:End_Day>
+                <ns0:Support_Queue>GMEA</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000114</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSSA-Saturday off</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>7</ns0:Day>
+                <ns0:Schedule_Type>Saturday</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>7</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 1:36:26 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>7</ns0:End_Day>
+                <ns0:Support_Queue>GSSA</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000115</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSSA-Sunday-Uavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>08:00:00</ns0:End_Time>
+                <ns0:Day>1</ns0:Day>
+                <ns0:Schedule_Type>Sunday</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>1</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 8:06:31 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GSSA</ns0:Support_Queue>
+                <ns0:Start_Day>1</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000116</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMEA-Sunday-Off</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>08:00:00</ns0:End_Time>
+                <ns0:Day>1</ns0:Day>
+                <ns0:Schedule_Type>Sunday</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>1</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 8:09:38 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GMEA</ns0:Support_Queue>
+                <ns0:Start_Day>1</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000117</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GLAM-Unvailable-Week</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>Yes</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>02:00:00</ns0:Start_Time>
+                <ns0:End_Time>14:00:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+05:30pm to 05:30am (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>December 5, 2018 8:40:53 AM CET</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GLAM</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000118</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GLAM-WeekEnd</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Available</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+05:30pm to 05:30am (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>December 15, 2018 3:01:39 PM CET</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GLAM</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000119</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMED-Weekdays Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Available</ns0:Chat_Application_Status>
+                <ns0:Start_Time>13:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to after of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>December 18, 2018 1:43:35 PM CET</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GMED</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000120</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMED-WeekEnd Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>11:59:00</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 1:41:20 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GMED</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000121</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSWE-Weekdays Unvailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>18:30:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 8:39:45 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GSWE</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000122</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GWCE -Weekdays Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>18:30:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 8:41:04 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GWCE</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000123</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GECA-Weekdays Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>18:30:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 8:42:32 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GECA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000124</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GWCE -WeeEnd Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 1:43:45 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GWCE</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000125</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GECA-WeekEnd Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 1:44:15 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GECA</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000126</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSWE-Weekdays Unavailable</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 4, 2018 1:43:27 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GSWE</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000127</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GNEA</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>Yes</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>11:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 06:30am to 02:30pm IST, Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GNEA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000128</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSSA-WeekDays Offline PM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>16:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GSSA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000129</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMEA-Weekday-PM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>16:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GMEA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000130</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSSA-Sunday-PM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>16:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>1</ns0:Day>
+                <ns0:Schedule_Type>Sunday</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>1</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GSSA</ns0:Support_Queue>
+                <ns0:Start_Day>1</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000131</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMEA-Sunday-PM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>16:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:00</ns0:End_Time>
+                <ns0:Day>1</ns0:Day>
+                <ns0:Schedule_Type>Sunday</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>1</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MNEA 11:30am to 07:30pm (IST) Sunday to Friday.
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GMEA</ns0:Support_Queue>
+                <ns0:Start_Day>1</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000132</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GMED-Weekday-AM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>06:30:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Its to late in the morning, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>December 4, 2018 1:18:54 PM CET</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GMED</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000133</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GSWE-WeekDay-AM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>06:30:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GSWE</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000134</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GWCE-Week-AM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>06:30:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GWCE</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000135</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GECA-Weekday AM</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>06:30:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours.
+10:00am to 10:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support&lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GECA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000136</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GASO week</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>16:00:00</ns0:Start_Time>
+                <ns0:End_Time>17:30:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.,,,,,
+MOAI 04:00am to 04:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>April 3, 2019 12:31:43 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GASO</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000142</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GINA-EIL</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>06:30:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Organization_Name>EIL</ns0:Organization_Name>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MOAI 04:00am to 04:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 10:03:59 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GINA</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000144</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GINA-EIL-WeekEnd</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>00:00:00</ns0:Start_Time>
+                <ns0:End_Time>23:59:59</ns0:End_Time>
+                <ns0:Day>1 7</ns0:Day>
+                <ns0:Schedule_Type>Weekend</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>9</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>Due to out of operating hours, the chat support is not available at this time.
+Please contact us during chat support hours for the market area.
+MOAI 04:00am to 04:00pm (IST) Monday to Friday
+In case of an urgent request please log a request via &lt;b&gt;&lt;a href="https://mysupport.ss.sw.ericsson.se/ux/myitapp/#/catalog/home"&gt;My Support &lt;/a&gt;</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>October 5, 2018 10:05:41 AM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>1</ns0:End_Day>
+                <ns0:Support_Queue>GINA</ns0:Support_Queue>
+                <ns0:Start_Day>7</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000401</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>mugurel</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Available</ns0:Chat_Application_Status>
+                <ns0:Start_Time>16:40:00</ns0:Start_Time>
+                <ns0:End_Time>16:55:00</ns0:End_Time>
+                <ns0:Day>2</ns0:Day>
+                <ns0:Schedule_Type>Monday</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>2</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>unavai</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>March 18, 2019 4:49:39 PM CET</ns0:Current_Server_TS>
+                <ns0:End_Day>2</ns0:End_Day>
+                <ns0:Support_Queue>GMED</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+            <ns0:getListValues>
+                <ns0:Request_ID>000000000000501</ns0:Request_ID>
+                <ns0:Status>Active</ns0:Status>
+                <ns0:Schedule_Description>GASO Prod</ns0:Schedule_Description>
+                <ns0:In_Effect_Date>2019-11-20</ns0:In_Effect_Date>
+                <ns0:In_Effect_Day>4</ns0:In_Effect_Day>
+                <ns0:In_Effect_Date_and_Time>2019-11-20T11:50:53+01:00</ns0:In_Effect_Date_and_Time>
+                <ns0:In_Effect_Time>11:50:53</ns0:In_Effect_Time>
+                <ns0:In_Effect>No</ns0:In_Effect>
+                <ns0:Chat_Application_Status>Unavailable</ns0:Chat_Application_Status>
+                <ns0:Start_Time>15:00:00</ns0:Start_Time>
+                <ns0:End_Time>16:00:00</ns0:End_Time>
+                <ns0:Day>2 3 4 5 6</ns0:Day>
+                <ns0:Schedule_Type>Week</ns0:Schedule_Type>
+                <ns0:Schedule_Type_integer>8</ns0:Schedule_Type_integer>
+                <ns0:Unavilable_Message>gaso test</ns0:Unavilable_Message>
+                <ns0:company_list>Global</ns0:company_list>
+                <ns0:Current_Server_TS>April 3, 2019 12:31:25 PM CEST</ns0:Current_Server_TS>
+                <ns0:End_Day>6</ns0:End_Day>
+                <ns0:Support_Queue>GASO</ns0:Support_Queue>
+                <ns0:Start_Day>2</ns0:Start_Day>
+                <ns0:Refresh_In_Effect>Refreshed</ns0:Refresh_In_Effect>
+            </ns0:getListValues>
+        </ns0:New_GetList_Operation_0Response>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,15 @@
+Installation:
+To install Scrapy using conda run:
+
+conda install –c conda–forge scrapy
+Alternatively, if you are more familiar with the installation from PyPI, 
+you can install using pip as :
+
+pip install Scrapy
+
+
+Note that sometimes this may require solving compilation issues for 
+some Scrapy dependencies depending on your operating system, 
+so be sure to check below links
+
+LINKS:https://doc.scrapy.org/en/latest/intro/install.html#intro-install-platform-notes
