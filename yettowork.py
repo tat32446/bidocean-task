@@ -6,4 +6,8 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import cross_val_score
 
 
+##https://www.microsoft.com/en-in/vidyapeeth/weekofai
+
+##https://studio.azureml.net/
+
 
