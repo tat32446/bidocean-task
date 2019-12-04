@@ -1,5 +1,5 @@
 
-
+Resources for DataScience:https://vshow.on24.com/vshow/WofAI2019
 CSS and XPath checker
 https://chrome.google.com/webstore/detail/css-and-xpath-checker/aoinfihhckpkkcpholfhmkeplbhddipe
 
