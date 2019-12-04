@@ -3,6 +3,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
+
+
 
 
 
@@ -44,3 +50,41 @@ print('Accuracy of Decision Tree classifier on test set: {:.2f}'
 
 ##Accuracy of Decision Tree classifier on training set: 1.00
 ##Accuracy of Decision Tree classifier on test set: 0.73
+
+
+##K-Nearest Neighbors
+
+knn = KNeighborsClassifier()
+knn.fit(X_train, y_train)
+print('Accuracy of K-NN classifier on training set: {:.2f}'
+     .format(knn.score(X_train, y_train)))
+print('Accuracy of K-NN classifier on test set: {:.2f}'
+     .format(knn.score(X_test, y_test)))
+
+
+##Linear Discriminant Analysis
+lda = LinearDiscriminantAnalysis()
+lda.fit(X_train, y_train)
+print('Accuracy of LDA classifier on training set: {:.2f}'
+     .format(lda.score(X_train, y_train)))
+print('Accuracy of LDA classifier on test set: {:.2f}'
+     .format(lda.score(X_test, y_test)))
+
+
+###Gaussian Naive Bayes
+
+gnb = GaussianNB()
+gnb.fit(X_train, y_train)
+print('Accuracy of GNB classifier on training set: {:.2f}'
+     .format(gnb.score(X_train, y_train)))
+print('Accuracy of GNB classifier on test set: {:.2f}'
+     .format(gnb.score(X_test, y_test)))
+
+
+##Support Vector Machine
+svm = SVC()
+svm.fit(X_train, y_train)
+print('Accuracy of SVM classifier on training set: {:.2f}'
+     .format(svm.score(X_train, y_train)))
+print('Accuracy of SVM classifier on test set: {:.2f}'
+     .format(svm.score(X_test, y_test)))
