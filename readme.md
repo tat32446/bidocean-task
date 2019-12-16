@@ -1,18 +1,19 @@
 
-Resources for DataScience:https://vshow.on24.com/vshow/WofAI2019
-CSS and XPath checker
+#Resources for DataScience:
+https://vshow.on24.com/vshow/WofAI2019
+#CSS and XPath checker
 https://chrome.google.com/webstore/detail/css-and-xpath-checker/aoinfihhckpkkcpholfhmkeplbhddipe
 
-Relative XPath Helper
+#Relative XPath Helper
 https://chrome.google.com/webstore/detail/relative-xpath-helper/eanaofphbanknlngejejepmfomkjaiic
 
-BeautifulSoup documentation:
+#BeautifulSoup documentation:
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-Selenium with Python¶
+#Selenium with Python¶
 https://selenium-python.readthedocs.io/
 
-Sample Testing sites:
+#Sample Testing sites:
 
 https://www.pyladies.com/
 
