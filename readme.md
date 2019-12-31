@@ -54,3 +54,8 @@ then run respective file
 Example: python ./americasbiz.py
 
 
+
+https://opensource.com/article/17/11/learning-rank-apache-solr
+https://www.tutorialspoint.com/lucene/lucene_quick_guide.htm
+
+
